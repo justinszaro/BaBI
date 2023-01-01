@@ -11,14 +11,23 @@
 		86ED8DC2294A53E90055A33A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DC1294A53E90055A33A /* ContentView.swift */; };
 		86ED8DC4294A53EA0055A33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ED8DC3294A53EA0055A33A /* Assets.xcassets */; };
 		86ED8DC7294A53EA0055A33A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ED8DC6294A53EA0055A33A /* Preview Assets.xcassets */; };
+		86ED8DCF294A54CD0055A33A /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DCD294A54CD0055A33A /* ProductModel.xcdatamodeld */; };
+		86ED8DD2294A55630055A33A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DD1294A55630055A33A /* CoreDataManager.swift */; };
+		86ED8DD4294A58B90055A33A /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DD3294A58B90055A33A /* AddProductView.swift */; };
+		86ED8DD6294A5D1D0055A33A /* EditProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DD5294A5D1D0055A33A /* EditProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8631939B294FDCB9008FD3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		86ED8DBC294A53E90055A33A /* BaBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ED8DBF294A53E90055A33A /* BaBIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaBIApp.swift; sourceTree = "<group>"; };
 		86ED8DC1294A53E90055A33A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86ED8DC3294A53EA0055A33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86ED8DC6294A53EA0055A33A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86ED8DCE294A54CD0055A33A /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
+		86ED8DD1294A55630055A33A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		86ED8DD3294A58B90055A33A /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		86ED8DD5294A5D1D0055A33A /* EditProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		86ED8DBE294A53E90055A33A /* BaBI */ = {
 			isa = PBXGroup;
 			children = (
+				8631939B294FDCB9008FD3D0 /* Info.plist */,
+				86ED8DD0294A554E0055A33A /* Managers */,
 				86ED8DBF294A53E90055A33A /* BaBIApp.swift */,
 				86ED8DC1294A53E90055A33A /* ContentView.swift */,
 				86ED8DC3294A53EA0055A33A /* Assets.xcassets */,
 				86ED8DC5294A53EA0055A33A /* Preview Content */,
+				86ED8DCD294A54CD0055A33A /* ProductModel.xcdatamodeld */,
+				86ED8DD3294A58B90055A33A /* AddProductView.swift */,
+				86ED8DD5294A5D1D0055A33A /* EditProductView.swift */,
 			);
 			path = BaBI;
 			sourceTree = "<group>";
@@ -65,6 +79,14 @@
 				86ED8DC6294A53EA0055A33A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86ED8DD0294A554E0055A33A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				86ED8DD1294A55630055A33A /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED8DD6294A5D1D0055A33A /* EditProductView.swift in Sources */,
+				86ED8DCF294A54CD0055A33A /* ProductModel.xcdatamodeld in Sources */,
 				86ED8DC2294A53E90055A33A /* ContentView.swift in Sources */,
+				86ED8DD2294A55630055A33A /* CoreDataManager.swift in Sources */,
 				86ED8DC0294A53E90055A33A /* BaBIApp.swift in Sources */,
+				86ED8DD4294A58B90055A33A /* AddProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +290,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = BaBI/BaBIDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BaBI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7T8CV9XA8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaBI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BaBI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +313,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = justinszaro.BaBI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,12 +325,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = BaBI/BaBI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BaBI/Preview Content\"";
 				DEVELOPMENT_TEAM = 7T8CV9XA8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaBI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BaBI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = justinszaro.BaBI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +377,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86ED8DCD294A54CD0055A33A /* ProductModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86ED8DCE294A54CD0055A33A /* ProductModel.xcdatamodel */,
+			);
+			currentVersion = 86ED8DCE294A54CD0055A33A /* ProductModel.xcdatamodel */;
+			path = ProductModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 86ED8DB4294A53E90055A33A /* Project object */;
 }
