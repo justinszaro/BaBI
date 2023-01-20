@@ -1,0 +1,53 @@
+id,name,type,scent_note_1,scent_note_2,scent_note_3,scent_note_4,scent_note_5,year,season,aromatherapy,travel_size
+1,Pink Watermelon Blast,Mist,Juicy Pink Watermelon,Sugared Strawberry Blossoms,Lime Zest,,,2022,Summer,FALSE,FALSE
+2,Bourbon,3-in-1 Shampoo,White Pepper,Dark Amber,Kentucky Oak,,,2021,,FALSE,FALSE
+3,Leather and Brandy,Cologne,Warm Leather,Amber Woods,Aged Brandy,,,2022,,FALSE,FALSE
+4,Eucalyptus + Tea,Body + Massage Oil,Eucalyptus Oil,Tea Extract,,,,2021,,TRUE,FALSE
+5,White Pumpkin & Chai,Mist,Cinnamon Cider,Spiced Pumpkin,Vanilla Glaze,,,2022,Fall,FALSE,TRUE
+6,Strawberry Pound Cake,Mist,Fresh Strawberries,Golden Shortcake,Whipped Cream,,,2022,,FALSE,TRUE
+7,Pumpkin Cupcake,Mist,Whipped Buttercream,Madagascar Vanilla ,Pumpkin Spice,Fresh Baked Cupcake,,2022,Fall,FALSE,TRUE
+8,Sweet Whiskey,Mist,Golden Amber,Vanilla-infused Whiskey,Sweet Red Berries,,,2022,,FALSE,TRUE
+9,Steeped Invigoration,Body + Massage Oil,Rose,Tangerine,Tea,,,2022,,TRUE,FALSE
+10,Black Currant + Cedarwood,Body Lotion,Black Currant,Cedarwood,,,,2021,Winter,TRUE,FALSE
+11,Eucalyptus + Spearmint,Body Lotion,Eucalyptus Oil,Spearmint Oil,,,,2020,,TRUE,FALSE
+12,Sunrise Woods,Mist,Creamy Sandalwood,Sweet Berries,Cozy Cashmere,,,2022,Fall,FALSE,TRUE
+13,Love Cotton Candy Champagne,Body Scrub,Bubbly Rose,Sweet Strawberry,Pink Sugar,,,2021,,FALSE,FALSE
+14,Pink Watermelon,Shower Gel,Juicy Watermelon,Pink Petals,Dewy Aloe,,,2021,,FALSE,FALSE
+15,Noir,Body Lotion,Black Cardamom,Smokey Vanilla,A Hint of Musk,,,2021,,FALSE,FALSE
+16,Twisted Peppermint,Body Lotion,Cool Peppermint,Sugared Snow,Vanilla Buttercream,Fresh Balsam,,2021,Winter,FALSE,FALSE
+17,Bourbon,Body Lotion,White Pepper,Dark Amber,Kentucky Oak,,,2021,,FALSE,FALSE
+18,Blueberry Sugar Pancakes,Body Lotion,Sugared Blueberries,Fresh Pancakes,Caramel Cream Drizzle,,,2021,,FALSE,FALSE
+19,Teakwood,Body Lotion,Mahogany,Black Teakwood,Lavender,,,2021,,FALSE,FALSE
+20,Whiskey Reserve,Body Lotion,Crisp Apple,Single Malt Whiskey,White Oak,,,2021,,FALSE,FALSE
+21,Cucumber Melon,Body Lotion,Crisp Cucumber,Watery Honeydew,Summer Cantaloupe,Sparkling Grapefruit,Sheer Woods,2021,Summer,FALSE,FALSE
+22,Orange Vanilla Twist,Body Lotion,Juicy Orange,Summer Sherbert,Vanilla Creme,,,2022,,FALSE,FALSE
+23,Love Cotton Candy Champagne,Body Lotion,Bubbly Rose,Sweet Strawberry,Pink Sugar,,,2021,,FALSE,FALSE
+24,Country Apple,Mist,Apple Blossom,Fresh Muguet,Sheer Sunlight,Orchard Woods,,2022,,FALSE,FALSE
+25,Orange Vanilla Twist,Mist,Juicy Orange,Summer Sherbert,Vanilla Creme,,,2022,,FALSE,FALSE
+26,Vanilla Mocha Cream,Mist,Cozy Cappuccino,Vanilla Orchid,White Tonka Bean,,,2021,,FALSE,FALSE
+27,Pretty as a Peach,Mist,Blushing Peach,Jasmine Petals,White Nectarine,Apple Blossom,Sheer Freesia,2021,,FALSE,FALSE
+28,Ruby Apple and Rosewood,Mist,Gala Apple,Autumn Peony,Soft Suede,,,2021,,FALSE,FALSE
+29,Wrapped In Sunshine,Mist,Golden Citrus,White Peach,Blonde Woods,,,2021,,FALSE,FALSE
+30,Pink Watermelon,Mist,Juicy Watermelon,Pink Petals,Dewy Aloe,,,2021,,FALSE,FALSE
+31,Cherry Limeade,Mist,Juicy Red Cherries,Candied Lime,Sparkling Citrus Soda,,,2021,,FALSE,FALSE
+32,Twisted Peppermint,Mist,Cool Peppermint,Sugared Snow,Vanilla Buttercream,Fresh Balsam,,2021,Winter,FALSE,FALSE
+33,Vanilla Mocha Cream,Body Lotion,Cozy Cappuccino,Vanilla Orchid,White Tonka Bean,,,2021,,FALSE,FALSE
+34,Watermelon Lemonade,Body Lotion,Watermelon Ice,Sparkling Water,Sugared Lemon,,,2020,,FALSE,FALSE
+35,Pink Apple Punch,Room Spray,Crisp Apple,Sun-Kissed Melon,Sugar Crystals,,,2022,,FALSE,FALSE
+36,Noir,Cleansing Bar,Black Cardamom,Smokey Vanilla,A Hint of Musk,,,2022,,FALSE,FALSE
+37,Bourbon,Cleansing Bar,White Pepper,Dark Amber,Kentucky Oak,,,2021,,FALSE,FALSE
+38,Sport,Cleansing Bar,Refreshing Citrus,Frozen Mint,Sea Salt Woods,,,2022,,FALSE,FALSE
+39,Mahogany Teakwood,Room Spray,Rich Mahogany,Black Teakwood,Dark Oak,Frosted Lavender,,2021,,FALSE,FALSE
+40,Sea Salt Therapy,Body Cream,Mimosa Absolute,Spearmint Essential Oils,,,,2021,,TRUE,FALSE
+41,Strawberry Pound Cake,Body Cream,Fresh Strawberries,Golden Shortcake,Whipped Cream,,,2021,,FALSE,FALSE
+42,Bourbon,Body Cream,White Pepper,Dark Amber,Kentucky Oak,,,2022,,FALSE,FALSE
+43,Pineapple Lime Eucalyptus,Body Cream,Pineapple,Lime,Eucalyptus,,,2022,,TRUE,FALSE
+44,Sleep,Pillow + Body Mist,Lavendar,Vanilla,,,,2021,,TRUE,FALSE
+45,Eucalyptus Rain,Room Spray,Aromatic Eucalyptus,Spearmint Leaves,Fresh Spring Rain,,,2020,,FALSE,FALSE
+46,Bourbon,Cologne,White Pepper,Dark Amber,Kentucky Oak,,,2021,,FALSE,FALSE
+47,Teakwood,Cologne,Mahogany,Black Teakwood,Lavender,,,2021,,FALSE,FALSE
+48,Sleep,Body Wash + Foam Bath,Rose,Lavandar ,,,,2020,,TRUE,FALSE
+49,Energy,Sea Salt Body Scrub,Guava,Orange,,,,2021,,TRUE,FALSE
+50,Coffee and Whiskey,Body Spray,Bold Irish Whiskey,Spash of Vanilla,Hint of Coffee,,,2022,,FALSE,FALSE
+51,Bourbon,Body Spray,White Pepper,Dark Amber,Kentucky Oak,,,2021,,FALSE,FALSE
+52,Champion,Body Spray,Clary Sage,Wild Geranium,Fresh Oakmoss,,,2021,,FALSE,FALSE

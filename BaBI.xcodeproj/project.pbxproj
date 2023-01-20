@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86019AA5297081FF00077973 /* Backup.csv in Resources */ = {isa = PBXBuildFile; fileRef = 86019AA4297081FF00077973 /* Backup.csv */; };
 		86ED8DC0294A53E90055A33A /* BaBIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DBF294A53E90055A33A /* BaBIApp.swift */; };
 		86ED8DC2294A53E90055A33A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED8DC1294A53E90055A33A /* ContentView.swift */; };
 		86ED8DC4294A53EA0055A33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ED8DC3294A53EA0055A33A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86019AA4297081FF00077973 /* Backup.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Backup.csv; sourceTree = "<group>"; };
 		8631939B294FDCB9008FD3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		86ED8DBC294A53E90055A33A /* BaBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ED8DBF294A53E90055A33A /* BaBIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaBIApp.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				86ED8DCD294A54CD0055A33A /* ProductModel.xcdatamodeld */,
 				86ED8DD3294A58B90055A33A /* AddProductView.swift */,
 				86ED8DD5294A5D1D0055A33A /* EditProductView.swift */,
+				86019AA4297081FF00077973 /* Backup.csv */,
 			);
 			path = BaBI;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86ED8DC7294A53EA0055A33A /* Preview Assets.xcassets in Resources */,
+				86019AA5297081FF00077973 /* Backup.csv in Resources */,
 				86ED8DC4294A53EA0055A33A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

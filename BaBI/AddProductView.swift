@@ -25,6 +25,26 @@ struct AddProductView: View {
         !name.isEmpty && !type.isEmpty
     }
     
+    func readCSV(inputFile: String) {
+            if let filepath = Bundle.main.path(forResource: inputFile, ofType: nil) {
+                do {
+                    let fileContent = try String(contentsOfFile: filepath)
+                    let lines = fileContent.components(separatedBy: "\n")
+                    lines.dropFirst().forEach { line in
+                        let data = line.components(separatedBy: ",")
+                        if data.count != 1 {
+                            scent_notes = [data[3], data[4], data[5], data[6], data[7]]
+                            coreDataManager.saveProduct(name: data[1], type: data[2], scent_notes: scent_notes, year: data[8], season: data[9], is_travel_size: Bool(data[11].lowercased()) ?? false, is_aromatherapy: Bool(data[10].lowercased()) ?? false, viewContext: viewContext)
+                        }
+                    }
+                } catch {
+                    print("error: \(error)") // to do deal with errors
+                }
+            } else {
+                print("\(inputFile) could not be found")
+            }
+        }
+    
     
     var body: some View {
         NavigationStack {
@@ -62,6 +82,11 @@ struct AddProductView: View {
                             dismiss()
                         }
                     }.disabled(!isFormValid)
+                    Spacer()
+                    Button("Import") {
+                        readCSV(inputFile: "Backup.csv")
+                        dismiss()
+                    }
                     Spacer()
                 }
             }
